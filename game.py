@@ -11,13 +11,13 @@ class Difficulty(Enum):
 
 class Color(Enum):
     BLUE = (0, 0, 255)
-    GREEN = (0, 255, 255)
+    GREEN = (0, 128, 0)
     RED = (255, 0, 0)
-    PURPLE = ()
-    MAROON = ()
-    TURQUOISE = ()
-    BLACK = ()
-    GRAY = ()
+    DARKBLUE = (0, 0, 128)
+    DARKRED = (128, 0, 0)
+    CYAN = (0, 255, 255)
+    MAGENTA = (255, 0, 255)
+    GRAY = (128, 128, 128)
 
 class Game():
 
